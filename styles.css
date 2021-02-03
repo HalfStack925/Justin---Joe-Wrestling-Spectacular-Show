@@ -127,6 +127,7 @@ nav {
 }
 
 .Justin, .Joe {
+  padding-top: 10px;
   font-size: larger;
   text-align: center;
   padding: 5px;
