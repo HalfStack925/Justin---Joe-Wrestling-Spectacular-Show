@@ -1,3 +1,5 @@
+
+
 body {
   background-image: url(img/background.png);
   background-repeat: no-repeat;
@@ -19,27 +21,18 @@ nav {
   width: 50%;
 }
 
-#logo {
+#logo { 
   width: 50%;
   background-color: black;
   padding-top: 20px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 9em;
+  
 }
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-}
 
-.column {
-  flex: 33.3%;
-  padding: 5px;
-}
-
-.Justin,
-.Joe {
+.Justin, .Joe {
   padding-top: 10px;
   font-size: larger;
   text-align: center;
@@ -48,6 +41,8 @@ nav {
 
 img {
   border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .podcast_links,
@@ -61,34 +56,32 @@ img {
 }
 
 /* Mobile */
-@media only screen and (max-width: 600px) {
-  body {
-    background-image: none;
+@media only screen and (max-width: 600px )
+{
+
+  body{
+    background-image: none
+     
   }
 
-  #logo {
+  #logo{
     width: 60%;
     padding-top: 5px;
     padding-left: 3em;
   }
 
-  nav {
-    font-size: larger;
-    padding: 0;
-    width: fit-content;
-    background-color: white;
+  nav{
+     font-size: larger;
+     padding: 0;
+     width: fit-content;
+     background-color: white;
+       
   }
 
-  .container {
+  .container{
     background-color: white;
     width: fit-content;
   }
 }
 
-/* tablets */
 
-@media only screen and (min-width: 600px) {
-  #logo {
-    padding-left: 4em;
-  }
-}
