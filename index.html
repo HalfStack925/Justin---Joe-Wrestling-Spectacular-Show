@@ -14,6 +14,18 @@
     <title>Justin & Joe Wrestling Spectacular Show</title>
 </head>
 <body>
+    <!---auto fresh to fix twitter feed bug-->
+    <script>
+
+        function reloadIt() {
+            if (window.location.href.substr(-2) !== "?r") {
+                window.location = window.location.href + "?r";
+            }
+        }
+
+        setTimeout('reloadIt()', 1000)();
+
+    </script>
     <!--main logo-->
     
     
