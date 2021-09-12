@@ -1,87 +1,40 @@
-
-
-body {
-  background-image: url(img/background.png);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100%;
+* {
+  margin: 0;
+  font-family: "Fjalla One", sans-serif;
 }
 
-nav {
-  width: 50%;
-  background-color: floralwhite;
-  margin-left: auto;
-  margin-right: auto;
+a:hover {
+  opacity: 0.3;
+}
+
+.header {
+  background-color: #000000;
+}
+
+.header img {
+  display: block;
+  max-width: 30%;
+  margin: auto;
+  padding: 20px 20px;
+}
+
+.about,.about desc {
+  
+  display: block;
+  font-size: 1.6em;
   text-align: center;
-  font-size: x-large;
-}
-.container {
-  background-color: white;
-  padding-bottom: 10px;
-  width: 50%;
+  line-height: 1.5em;
+  margin-top: 15px;
+  padding: 25px, 0,;
 }
 
-#logo { 
-  width: 50%;
-  background-color: black;
-  padding-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 9em;
+
+
+aside {
+  width: 40%;
+  padding-left: 15px;
+  margin: 15px;
+  float: right;
   
 }
-
-
-.Justin, .Joe {
-  padding-top: 10px;
-  font-size: larger;
-  text-align: center;
-  padding: 5px;
-}
-
-img {
-  border-radius: 10px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.podcast_links,
-.social_media_links {
-  display: flex;
-  flex: 33.3%;
-  text-align: center;
-  font-size: large;
-  padding-top: 3em;
-  padding-bottom: 3em;
-}
-
-/* Mobile */
-@media only screen and (max-width: 600px )
-{
-
-  body{
-    background-image: none
-     
-  }
-
-  #logo{
-    width: 60%;
-    padding-top: 5px;
-    padding-left: 3em;
-  }
-
-  nav{
-     font-size: larger;
-     padding: 0;
-     width: fit-content;
-     background-color: white;
-       
-  }
-
-  .container{
-    background-color: white;
-    width: fit-content;
-  }
-}
-
 

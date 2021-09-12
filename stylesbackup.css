@@ -1,0 +1,87 @@
+
+
+body {
+  background-image: url(img/background.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+nav {
+  width: 50%;
+  background-color: floralwhite;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: x-large;
+}
+.container {
+  background-color: white;
+  padding-bottom: 10px;
+  width: 50%;
+}
+
+#logo { 
+  width: 50%;
+  background-color: black;
+  padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 9em;
+  
+}
+
+
+.Justin, .Joe {
+  padding-top: 10px;
+  font-size: larger;
+  text-align: center;
+  padding: 5px;
+}
+
+img {
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.podcast_links,
+.social_media_links {
+  display: flex;
+  flex: 33.3%;
+  text-align: center;
+  font-size: large;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+/* Mobile */
+@media only screen and (max-width: 600px )
+{
+
+  body{
+    background-image: none
+     
+  }
+
+  #logo{
+    width: 60%;
+    padding-top: 5px;
+    padding-left: 3em;
+  }
+
+  nav{
+     font-size: larger;
+     padding: 0;
+     width: fit-content;
+     background-color: white;
+       
+  }
+
+  .container{
+    background-color: white;
+    width: fit-content;
+  }
+}
+
+
