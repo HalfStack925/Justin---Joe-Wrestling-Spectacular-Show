@@ -1,6 +1,13 @@
 * {
-  margin: 0;
   font-family: "Fjalla One", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+
 }
 
 a:hover {
@@ -16,6 +23,10 @@ a:hover {
   max-width: 30%;
   margin: auto;
   padding: 20px 20px;
+}
+
+.navbar {
+  color: #ffffff;
 }
 
 .about,
@@ -38,23 +49,29 @@ aside {
 .links {
   display: flex;
   flex-direction: row;
-  margin-left: 40px;
   margin-top: 40px;
+  margin-bottom: 15px;
+  background-color:#ffffff;
 }
 
-
-.bio > .bio_pic img{
-  width:25%;
+.bio > .bio_pic img {
+  width: 25%;
   border-radius: 15%;
   display: block;
   margin: 25px auto;
   padding: 50px 25px 25px 25px;
 }
 
-.bio > .bio_pic > .bio_desc p{
+.bio > .bio_pic > .bio_desc,
+h3 p {
   font-size: 1.2rem;
   line-height: 2;
   text-align: center;
   margin: 30px;
   padding: 30px;
+}
+
+footer > .links{
+  margin-left: 25px;
+  background-color:#ffffff;
 }
